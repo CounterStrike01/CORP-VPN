@@ -17,10 +17,10 @@ Bypasses execution policy for the current PowerShell session
 Checks whether the VPN connection name already exists
 Creates or re-creates the VPN using:
 
-L2TP/IPsec
-Pre-shared key authentication
-Stored credentials
-All-user scope
+- L2TP/IPsec
+- Pre-shared key authentication
+- Stored credentials
+- All-user scope
 
 
 Detects the active WAN Miniport (L2TP) adapter
@@ -37,8 +37,9 @@ User has permission to create all-user VPN connections and routes
 
 🚀 Usage
 Run the script in an elevated PowerShell session:
-PowerShell.\Configure-CorpVPN.ps1Show more lines
+PowerShell.\CorpVPN.ps1
 The VPN connection will be created as CORP-VPN and will be available to all users on the machine.
+
 ⚠️ Notes & Considerations
 
 The script assumes the VPN server address, PSK, DNS servers, and routes are correct for your environment.
@@ -48,9 +49,10 @@ If the VPN interface is not active at runtime, DNS and IPv6 changes may not appl
 🔒 Security Disclaimer
 This script contains hard-coded VPN credentials and PSK values for automation purposes.
 Do not publish this repository publicly without removing or securing sensitive information.
+
 👤 Intended Audience
 
-System Administrators
-Infrastructure Engineers
-Enterprise IT teams
-Intune / Endpoint management deployments
+- System Administrators
+- Infrastructure Engineers
+- Enterprise IT teams
+- Intune / Endpoint management deployments
