@@ -3,13 +3,13 @@ Automated VPN Configuration Script
 This PowerShell script automates the creation and configuration of a corporate L2TP/IPsec VPN connection on Windows systems. It is designed for all-user deployment and ensures consistent VPN, DNS, IPv6, and routing configuration across endpoints.
 ✨ Features
 
-✅ Creates or recreates a standardized L2TP VPN connection (CORP-VPN)
-🔁 Safely removes and re-adds the VPN if it already exists
-🔐 Configures pre-shared key (PSK) and MS-CHAPv2 authentication
-🌐 Applies custom DNS servers to the active VPN interface
-🚫 Disables IPv6 on the VPN adapter to prevent routing or DNS issues
-🧭 Adds persistent static routes for internal corporate networks
-🖥️ Runs fully unattended with minimal user interaction
+1) Creates or recreates a standardized L2TP VPN connection (CORP-VPN)
+2) Safely removes and re-adds the VPN if it already exists
+3) Configures pre-shared key (PSK) and MS-CHAPv2 authentication
+4) Applies custom DNS servers to the active VPN interface
+5) Disables IPv6 on the VPN adapter to prevent routing or DNS issues
+6) Adds persistent static routes for internal corporate networks
+7) Runs fully unattended with minimal user interaction
 
 🛠 What the Script Does
 
